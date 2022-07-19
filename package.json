@@ -1,7 +1,7 @@
 {
-  "name": "react-layouts-builder",
-  "version": "1.0.1-alpha.21",
-  "description": "Lightweight and powerfull react layouts drag and drop",
+  "name": "@sitym/sitym-ui",
+  "version": "0.0.1",
+  "description": "Lightweight and powerfull react components",
   "main": "packages/index.js",
   "types": "packages/index.d.ts",
   "module": "packages/esm/index.js",
@@ -24,11 +24,9 @@
   },
   "keywords": [
     "React",
-    "drag and drop",
+    "components",
     "layouts",
     "section",
-    "row",
-    "column",
     "typescript",
     "javascript",
     "node"

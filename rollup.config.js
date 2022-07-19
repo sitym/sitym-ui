@@ -8,7 +8,7 @@ import postcss from 'rollup-plugin-postcss';
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss'];
 export default {
-  input: 'layouts-builder/index.ts',
+  input: 'src/index.ts',
   output: [
     {
       dir: './packages',
@@ -38,7 +38,7 @@ export default {
     babel({
       extensions,
       babelHelpers: 'bundled',
-      include: ['layouts-builder/**/*'],
+      include: ['src/**/*'],
       exclude: ['packages/**/*', 'node_modules'],
     }),
     // cleaner({

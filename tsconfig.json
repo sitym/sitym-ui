@@ -20,6 +20,6 @@
     "outDir": "./packages",
     // "rootDir": "/dnd-system/**/*"
   },
-  "include": ["layouts-builder/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "packages"]
 }
